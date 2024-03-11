@@ -1,0 +1,15 @@
+aside h1 {
+    font-size: 1.5rem;
+    color: var(--white);
+
+}
+aside h6 {
+    font-size: 1rem;
+    color: var(--white);
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    top: 0; /* Para fixar no topo da tela */
+    left: 0; /* Para fixar à esquerda da tela */
+    width: 100%; /* Garante que a <nav> ocupe toda a largura da tela */
+    padding: 1rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Apenas para visualização */
+    color: #fff; /* Apenas para visualização */
+}
+
+nav #icone {
+    padding: 1rem;
+    left: 1rem;
+    position: absolute;
+}
+
+nav #info {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+nav #info a {
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}

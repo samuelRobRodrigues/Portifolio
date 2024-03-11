@@ -1,0 +1,28 @@
+@import url('styles/nav.css');
+@import url('styles/main.css');
+@import url('styles/aside.css');
+@import url('styles/footer.css');
+
+:root {
+    --white: #9b9b9b; 
+}
+
+* {
+    font-family: "roboto" , sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    @font-face {
+    font-family: "Roboto", sans-serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+} 
+
+body {
+    background-color: rgba(22, 22, 22, 0.884);
+}
+
+.container {
+    margin-top: 6rem;
+}
+

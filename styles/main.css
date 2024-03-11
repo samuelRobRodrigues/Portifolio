@@ -1,0 +1,16 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 356px;
+}
+img {
+    align-items: center;
+    justify-content: center;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 99%);
+    height: 256px;
+    width: 256px;
+    margin-top: 6rem;
+    object-fit: cover;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
