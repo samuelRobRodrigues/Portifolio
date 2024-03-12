@@ -1,20 +1,31 @@
 nav {
     position: fixed;
-    top: 0; /* Para fixar no topo da tela */
-    left: 0; /* Para fixar à esquerda da tela */
-    width: 100%; /* Garante que a <nav> ocupe toda a largura da tela */
-    padding: 1rem;
-    height: 5rem;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    padding-top: 2rem;
+    height: 6rem;
     display: flex;
     justify-content: space-around;
-    background-color: #333; /* Apenas para visualização */
-    color: #fff; /* Apenas para visualização */
+    background-color: #2b2b2b;; 
+    color: #fff; 
+
+}
+.img_icone {
+    z-index: 999;
+    width: 2px;
+    height: 2px;
 }
 
 nav #icone {
     padding: 1rem;
     left: 1rem;
     position: absolute;
+}
+nav #icone a {
+    text-decoration: none;
+    color: var(--white);
+    position: relative;
 }
 
 nav #info {
@@ -29,4 +40,5 @@ nav #info a {
     font-weight: bold;
     text-decoration: none;
     color: var(--white);
+
 }

@@ -2,9 +2,10 @@
 @import url('styles/main.css');
 @import url('styles/aside.css');
 @import url('styles/footer.css');
+@import url('styles/article.css');
 
 :root {
-    --white: #9b9b9b; 
+    --white: #d6d6d6; 
 }
 
 * {
@@ -19,7 +20,10 @@
 } 
 
 body {
-    background-color: rgba(22, 22, 22, 0.884);
+    margin: 0 auto;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #3b3b3b;
 }
 
 .container {

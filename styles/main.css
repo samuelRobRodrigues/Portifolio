@@ -1,16 +1,46 @@
 main {
+    margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 356px;
-}
-img {
-    align-items: center;
+    grid-template-columns: 1fr 256px;
     justify-content: center;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 99%);
-    height: 256px;
-    width: 256px;
-    margin-top: 6rem;
-    object-fit: cover;
-    border-radius: 12px;
-    overflow: hidden;
+    align-items: center;
+
+    padding: 2rem;
+}
+    @keyframes typing {
+            from {
+            width: 0;
+            }
+        }
+        
+        #hello {
+            line-height: 1.5;
+            color: #e4e4e4;
+            overflow-wrap: break-word;
+            font-size: 4rem;
+            font-weight: bolder;
+            overflow: hidden;
+            white-space: pre-wrap;
+            word-break: break-all;
+            margin: 0 auto;
+            letter-spacing: .15em;
+            animation: typing 1s steps(40, end), blink-caret .10s step-end infinite;
+        }
+        
+        /* Blinking cursor animation */
+        @keyframes blink-caret {
+            from, to {
+            border-color: transparent;
+            }
+            50% {
+            border-color: orange;
+            }
+        }
+
+.animation {
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.705);
+    width: 250px;
     box-sizing: border-box;
+    box-shadow: none;
+
 }
