@@ -55,3 +55,24 @@
     height: 35px;
     
 }
+
+@media screen and (max-width: 768px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+    }
+
+    #about h2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #tecnologias {
+        width: 100%;
+    }
+    #info_sobre {
+        width: 100%;
+    }
+}
+
