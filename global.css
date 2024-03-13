@@ -3,6 +3,7 @@
 @import url('styles/aside.css');
 @import url('styles/footer.css');
 @import url('styles/article.css');
+@import url('styles/section.css');
 
 :root {
     --white: #d6d6d6; 
@@ -18,10 +19,8 @@
     font-family: "Roboto", sans-serif;;
     src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 } 
-
+ 
 body {
-    margin: 0 auto;
-    width: 1024px;
     margin: 0 auto;
     background-color: #3b3b3b;
 }
